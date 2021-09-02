@@ -1,11 +1,15 @@
 import React from 'react';
 import HomeIcon from '@material-ui/icons/Home';
-import MailIcon from '@material-ui/icons/Mail';
-import AssessmentIcon from '@material-ui/icons/Assessment';
 import DashboardIcon from '@material-ui/icons/Dashboard';
 import GroupIcon from '@material-ui/icons/Group';
 import PermMediaIcon from '@material-ui/icons/PermMedia';
 import { Assessment } from '@material-ui/icons';
+import MonetizationOnIcon from '@material-ui/icons/MonetizationOn';
+import AccountTreeIcon from '@material-ui/icons/AccountTree';
+import CategoryIcon from '@material-ui/icons/Category';
+import GavelIcon from '@material-ui/icons/Gavel';
+import LibraryBooksIcon from '@material-ui/icons/LibraryBooks';
+import EvStationIcon from '@material-ui/icons/EvStation';
 
 export const SidebarData = [
     {
@@ -14,28 +18,34 @@ export const SidebarData = [
         link: "/home"
     },
     {
-        title: "Mailbox",
-        icon: <MailIcon />,
-        link: "/mailbox"
+        title: "Projects",
+        icon: <AccountTreeIcon />,
+        link: "/projects"
     },
     {
-        title: "Analytics",
-        icon: <AssessmentIcon />,
-        link: "/analytics"
+        title: "Sources & Uses",
+        icon: <CategoryIcon />,
+        link: "/assets"
     },
     {
-        title: "Dashboard",
-        icon: <DashboardIcon />,
-        link: "/dashboard"
+        title: "Power",
+        icon: <EvStationIcon />,
+        link: "/power"
+    },
+
+    {
+        title: "Cashflows",
+        icon: <MonetizationOnIcon />,
+        link: "/cash"
     },
     {
-        title: "Friends",
-        icon: <GroupIcon />,
-        link: "/friends"
+        title: "Financial",
+        icon: <LibraryBooksIcon />,
+        link: "/financial"
     },
     {
-        title: "Images",
-        icon: <PermMediaIcon />,
-        link: "/images"
+        title: "Tax",
+        icon: <GavelIcon />,
+        link: "/tax"
     },
 ];
